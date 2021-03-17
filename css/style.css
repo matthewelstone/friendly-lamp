@@ -1,6 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.container-wrapper{
+
+}
+.container-wrapper-red{
+    background-color:#f05f40;
+    color: white;
+}
 
 .alert-container .col-12 {
     padding-left: 0;
@@ -98,6 +105,20 @@ body {
     color: #d0d0d0;
 }
 
+/* Page Headers */
+
+.page-header{
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+.page-header h2{
+    margin: 0;
+}
+.quotes .page-header{
+    margin-bottom: 25px;
+}
+
 /* Block dividers */
 
 .block-divider {
@@ -105,6 +126,9 @@ body {
     height: 5px;
     border: 0;
     background-color: #444;
+}
+.block-divider--white{
+    background-color: white;
 }
 
 .block-divider--orange {
@@ -114,6 +138,12 @@ body {
 .block-divider--short {
     width: 35px;
 }
+/* Content Containers */
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 
 /* Buttons */
 
@@ -136,4 +166,25 @@ body {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+
+/*  Features */
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature i{
+    font-size: 45px;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+.feature .btn{
+    background-color: white;
+    border-color: white;
+    color: #f05f40;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+
 }
